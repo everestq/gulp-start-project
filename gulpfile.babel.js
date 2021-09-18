@@ -28,3 +28,4 @@ export const watch = gulp.series(
 );
 
 exports.stylesWatch = stylesWatch;
+exports.stylesWatch = styles;
