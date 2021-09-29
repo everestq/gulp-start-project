@@ -1,0 +1,12 @@
+@import './helpers/variables';
+@import './helpers/functions';
+@import './helpers/mixins';
+@import './base/base';
+@import './fonts';
+
+body {
+  font-weight: 400;
+  font-family: "ConneqtRegular", sans-serif;
+
+  background-color: get-theme-color('primary');
+}

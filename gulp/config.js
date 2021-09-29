@@ -11,7 +11,8 @@ const config = {
     iconsMono: `${srcPath}/assets/icons/mono`,
     iconsMulti: `${srcPath}/assets/icons/multi`,
     pug: `${srcPath}/pug`,
-    // добавить путь до хтмл
+    html: `${srcPath}/panini`,
+    resources: `${srcPath}/resources`,
   },
 
   dest: {

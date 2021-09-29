@@ -6,6 +6,7 @@
     "jquery": true
   },
    "rules" : {
-     "semi": "off"
+     "semi": "off",
+     "import/no-extraneous-dependencies": ["error", {"devDependencies": ["gulpfile.babel.js", "gulp/**/*"]}]
    }
 }
